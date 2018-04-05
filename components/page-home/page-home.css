@@ -1,0 +1,54 @@
+.page-home {
+  display: block;
+  height: 700px;
+  background: url('bg.jpg');
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.page-home__header {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 42px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-home__menu-item {
+  color: #fff;
+  height: 100%;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.page-home__center{
+  display: block;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.page-home__welcome {
+  font-size: 40px;
+  letter-spacing: -0.025em;
+}
+
+.page-home__bold-caption {
+  font-size: 75px;
+  font-weight: bold;
+  margin-top: 50px;
+  letter-spacing: -0.025em;
+}
+
+.page-home__button {
+  border: none;
+  background: #fed136;
+  border-radius: 3px;
+  text-transform: uppercase;
+  width: 240px;
+  height: 65px;
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #484543;
+
+}

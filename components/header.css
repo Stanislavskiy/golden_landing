@@ -1,0 +1,17 @@
+.header {
+  display: block;
+  text-align: center;
+}
+
+.header__title {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+}
+
+.header__description {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+.col {
+  display: block;
+  width: 940px;
+}
+
+.col_center {
+  margin: 0 auto;
+}
