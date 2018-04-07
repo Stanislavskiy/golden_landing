@@ -1,0 +1,20 @@
+.page-footer {
+    display: block;
+    height: 1515px;
+}
+
+.page-footer__about {
+    display: block;
+    margin-top: 78px;
+}
+
+.page-footer__about {
+    display: block;
+    width: 615px;
+    margin-top: 90px;
+}
+
+.page-footer__about:first-of-type {
+    margin-top: 0px;
+}
+

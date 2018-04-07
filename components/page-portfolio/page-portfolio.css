@@ -1,10 +1,12 @@
 .page-portfolio {
   display: block;
-  height: 573px;
+  height: 696px;
   background: #f7f7f7;
   color: #222;
 }
 
-.page-portfolio__header {
-  margin-top: 120px;
+.page-portfolio__works {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
 }
