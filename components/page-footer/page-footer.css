@@ -1,20 +1,71 @@
 .page-footer {
-    display: block;
-    height: 1515px;
+  display: block;
+  height: 1515px;
 }
 
 .page-footer__about {
-    display: block;
-    margin-top: 78px;
-}
-
-.page-footer__about {
-    display: block;
-    width: 615px;
-    margin-top: 90px;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 90px;
 }
 
 .page-footer__about:first-of-type {
-    margin-top: 0px;
+    margin-top: 80px;
+  }
+
+.page-footer__about-description {
+    display: block;
+    float: left;
+    width: 290px;
+    font-size: 14px;
+    color: #7777;
+    letter-spacing: -0.025em;
+    line-height: 22px;
 }
 
+.page-footer__about-title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #222;
+    letter-spacing: -0.025em;
+    margin-bottom: 13px;
+}
+
+.page-footer__about_left {
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.page-footer__about_right {
+    justify-content: flex-end;
+    text-align: left;
+} 
+
+.page-footer__about_left .page-footer__img {
+    order: 2;
+}
+
+.page-footer__about_right .page-footer__about-description {
+    margin-left: 36px;
+    margin-right: 50px;
+}
+
+.page-footer__about_left .page-footer__about-description {
+    margin-left: 50px;
+    margin-right: 36px;
+}
+
+.page-footer__about-title .page-footer__about_left {
+    float: right;   
+}
+
+.page-footer__copy {
+    display: block;
+    margin-top: 115px;
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: -0.025em;
+}
